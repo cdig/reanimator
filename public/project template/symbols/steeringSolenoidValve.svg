@@ -1,0 +1,158 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="203px" height="60px" viewBox="0 0 203 60">
+<defs>
+<g id="solenoidOn_0_Layer0_0_FILL">
+<path fill="#FF0000" stroke="none" d="
+M 15 -22.5
+L -15 -22.5 -15 22.5 15 22.5 15 -22.5 Z"/>
+</g>
+
+<g id="solenoidOff_0_Layer0_0_FILL">
+<path fill="#FEFEFE" stroke="none" d="
+M 15 -22.5
+L -15 -22.5 -15 22.5 15 22.5 15 -22.5 Z"/>
+</g>
+
+<g id="steeringSolenoidValve_0_Layer0_1_MEMBER_1_FILL">
+<path fill="#000000" stroke="none" d="
+M 1086.6 817.9
+L 1086.05 833.35 1089.95 832.5 1093.85 831.6 1086.6 817.9 Z"/>
+</g>
+
+<g id="steeringSolenoidValve_0_Layer0_2_MEMBER_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 764.35 1086.25
+L 764.35 1026.25 704.35 1026.25 704.35 1086.25 764.35 1086.25
+M 644.35 1026.25
+L 644.35 1086.25 704.35 1086.25 704.35 1026.25 644.35 1026.25 Z"/>
+</g>
+
+<g id="steeringSolenoidValve_0_Layer0_2_MEMBER_3_FILL">
+<path fill="#000000" stroke="none" d="
+M 926 553.7
+L 930 568.7 934 553.7 930 553.7 926 553.7
+M 930 510.1
+L 926 525.1 930 525.1 934 525.1 930 510.1 Z"/>
+</g>
+
+<g id="snap_0_Layer0_0_FILL">
+<path fill="#00FF00" stroke="none" d="
+M 1.75 -1.8
+Q 1.05 -2.5 0 -2.5 -1.05 -2.5 -1.8 -1.8 -2.5 -1.05 -2.5 0 -2.5 1.05 -1.8 1.75 -1.05 2.5 0 2.5 1.05 2.5 1.75 1.75 2.5 1.05 2.5 0 2.5 -1.05 1.75 -1.8 Z"/>
+</g>
+
+<path id="steeringSolenoidValve_0_Layer0_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1140.6 936.55
+L 1143.55 921.6 1149.8 951.6 1156.05 921.6 1162.3 951.6 1168.5 921.6 1174.7 951.6 1178.1 936.3"/>
+
+<path id="solenoid_0_Layer0_2_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -22.5 -15
+L 22.5 -15 22.5 15 -22.5 15 -22.5 -15 Z"/>
+
+<path id="solenoid_0_Layer0_2_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -7.65 14.85
+L 7.6 -14.95"/>
+
+<path id="steeringSolenoidValve_0_Layer0_1_MEMBER_1_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1089.95 832.5
+L 1102 885.7"/>
+
+<path id="steeringSolenoidValve_0_Layer0_2_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 704.35 1086.25
+L 644.35 1086.25 644.35 1026.25 704.35 1026.25 764.35 1026.25 764.35 1086.25 704.35 1086.25 704.35 1026.25"/>
+
+<path id="steeringSolenoidValve_0_Layer0_2_MEMBER_1_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 659.35 1086.25
+L 659.35 1071.25 651.85 1071.25
+M 659.35 1071.25
+L 666.85 1071.25"/>
+
+<path id="steeringSolenoidValve_0_Layer0_2_MEMBER_2_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 749.3 1086.25
+L 749.3 1071.25 741.8 1071.25
+M 749.3 1071.25
+L 756.8 1071.25"/>
+
+<path id="steeringSolenoidValve_0_Layer0_2_MEMBER_3_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 930 553.7
+L 930 525.1"/>
+</defs>
+
+<g id="steeringSolenoidValve" transform="matrix( 1, 0, 0, 1, 101.5,35.3) ">
+<g transform="matrix( 1, 0, 0, 1, -1076.7,-926.9) ">
+<use xlink:href="#steeringSolenoidValve_0_Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -78.85,9.6) ">
+<g id="solenoidOn" transform="matrix( 0.000091552734375, 1, 0.9999847412109375, -0.000091552734375, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#solenoidOn_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="solenoidOff" transform="matrix( 0.000091552734375, 1, 0.9999847412109375, -0.000091552734375, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#solenoidOff_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#solenoid_0_Layer0_2_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#solenoid_0_Layer0_2_MEMBER_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -1174.65,-848) ">
+<use xlink:href="#steeringSolenoidValve_0_Layer0_1_MEMBER_1_FILL"/>
+
+<use xlink:href="#steeringSolenoidValve_0_Layer0_1_MEMBER_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -700.7,-1061.5) ">
+<use xlink:href="#steeringSolenoidValve_0_Layer0_2_MEMBER_0_FILL"/>
+
+<use xlink:href="#steeringSolenoidValve_0_Layer0_2_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, -1, -625.7,1051) ">
+<use xlink:href="#steeringSolenoidValve_0_Layer0_2_MEMBER_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -715.65,-1061.5) ">
+<use xlink:href="#steeringSolenoidValve_0_Layer0_2_MEMBER_2_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -956.35,-544.6) ">
+<use xlink:href="#steeringSolenoidValve_0_Layer0_2_MEMBER_3_FILL"/>
+
+<use xlink:href="#steeringSolenoidValve_0_Layer0_2_MEMBER_3_1_STROKES"/>
+</g>
+
+<g id="snap" transform="matrix( 1, 0, 0, 1, -26.35,-35.2) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL" transform="matrix( 1, 0, 0, 1, 33.65,-35.2) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL" transform="matrix( 1, 0, 0, 1, -26.35,24.8) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL" transform="matrix( 1, 0, 0, 1, 33.65,24.8) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,222 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="263px" height="60px" viewBox="0 0 263 60">
+<defs>
+<g id="solenoidOn_0_Layer0_0_FILL">
+<path fill="#FF0000" stroke="none" d="
+M 15 -22.5
+L -15 -22.5 -15 22.5 15 22.5 15 -22.5 Z"/>
+</g>
+
+<g id="solenoidOff_0_Layer0_0_FILL">
+<path fill="#FEFEFE" stroke="none" d="
+M 15 -22.5
+L -15 -22.5 -15 22.5 15 22.5 15 -22.5 Z"/>
+</g>
+
+<g id="FL_4portValve_0_Layer0_0_MEMBER_2_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 165.05 80
+L 165.05 20 105.05 20 105.05 80 165.05 80
+M 225.05 20
+L 165.05 20 165.05 80 225.05 80 225.05 20 Z"/>
+</g>
+
+<g id="FL_4portValve_0_Layer0_0_MEMBER_8_FILL">
+<path fill="#000000" stroke="none" d="
+M 779.4 868.6
+L 783.4 853.6 779.4 853.6 775.4 853.6 779.4 868.6 Z"/>
+</g>
+
+<g id="FL_4portValve_0_Layer0_0_MEMBER_9_FILL">
+<path fill="#000000" stroke="none" d="
+M 753.4 824.4
+L 749.4 809.4 745.4 824.4 749.4 824.4 753.4 824.4 Z"/>
+</g>
+
+<g id="snap_0_Layer0_0_FILL">
+<path fill="#00FF00" stroke="none" d="
+M 1.75 -1.8
+Q 1.05 -2.5 0 -2.5 -1.05 -2.5 -1.8 -1.8 -2.5 -1.05 -2.5 0 -2.5 1.05 -1.8 1.75 -1.05 2.5 0 2.5 1.05 2.5 1.75 1.75 2.5 1.05 2.5 0 2.5 -1.05 1.75 -1.8 Z"/>
+</g>
+
+<path id="solenoid_0_Layer0_2_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -22.5 -15
+L 22.5 -15 22.5 15 -22.5 15 -22.5 -15 Z"/>
+
+<path id="solenoid_0_Layer0_2_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -7.65 14.85
+L 7.6 -14.95"/>
+
+<path id="FL_4portValve_0_Layer0_0_MEMBER_1_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 614.35 823.95
+L 611.4 809 605.15 839 598.9 809 592.65 839 586.45 809 580.25 839 576.85 823.7"/>
+
+<path id="FL_4portValve_0_Layer0_0_MEMBER_2_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 165.05 20
+L 225.05 20 225.05 80 165.05 80 105.05 80 105.05 20 165.05 20 165.05 80"/>
+
+<path id="FL_4portValve_0_Layer0_0_MEMBER_3_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 111.2 87.5
+L 217.55 87.5
+M 111.2 12.5
+L 217.55 12.5"/>
+
+<path id="FL_4portValve_0_Layer0_0_MEMBER_4_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 689.4 809
+L 689.4 824 696.9 824
+M 689.4 824
+L 681.9 824"/>
+
+<path id="FL_4portValve_0_Layer0_0_MEMBER_5_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 726.9 824
+L 719.4 824 711.9 824
+M 719.4 809
+L 719.4 824"/>
+
+<path id="FL_4portValve_0_Layer0_0_MEMBER_6_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 689.4 869
+L 689.4 854 681.9 854
+M 689.4 854
+L 696.9 854"/>
+
+<path id="FL_4portValve_0_Layer0_0_MEMBER_7_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 719.4 869
+L 719.4 854 711.9 854
+M 719.4 854
+L 726.9 854"/>
+
+<path id="FL_4portValve_0_Layer0_0_MEMBER_8_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 779.4 853.6
+L 779.4 808.6"/>
+
+<path id="FL_4portValve_0_Layer0_0_MEMBER_9_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 749.4 824.4
+L 749.4 869.4"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 161.5,30) ">
+<g transform="matrix( -1, 0, 0, 1, 78.8,15) ">
+<g id="solenoidOn" transform="matrix( 0.000091552734375, 1, 0.9999847412109375, -0.000091552734375, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#solenoidOn_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="solenoidOff" transform="matrix( 0.000091552734375, 1, 0.9999847412109375, -0.000091552734375, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#solenoidOff_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#solenoid_0_Layer0_2_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#solenoid_0_Layer0_2_MEMBER_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -678.1,-838.25) ">
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -168.75,-50) ">
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_2_FILL"/>
+
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_2_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -168.75,-50) ">
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_3_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -738.1,-839) ">
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_4_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -738.1,-839) ">
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_5_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -738.1,-839) ">
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_6_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -738.1,-839) ">
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_7_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -738.1,-839) ">
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_8_FILL"/>
+
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_8_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -738.1,-839) ">
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_9_FILL"/>
+
+<use xlink:href="#FL_4portValve_0_Layer0_0_MEMBER_9_1_STROKES"/>
+</g>
+
+<g id="snap" transform="matrix( 1, 0, 0, 1, 11.3,-29.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL" transform="matrix( 1, 0, 0, 1, 41.3,-29.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL" transform="matrix( 1, 0, 0, 1, -48.7,-29.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL" transform="matrix( 1, 0, 0, 1, -18.7,-29.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, 11.3,30.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, 41.3,30.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, -48.7,30.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, -18.7,30.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, -63.8,16.7) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL_FL_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, 101.3,14.3) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

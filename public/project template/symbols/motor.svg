@@ -1,0 +1,65 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="82px" height="82px" viewBox="0 0 82 82">
+<defs>
+<g id="motor_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 40 -0.05
+Q 40 -16.55 28.3 -28.25 16.55 -39.9 0 -39.9 -16.55 -39.9 -28.3 -28.25 -40 -16.55 -40 -0.05 -40 16.55 -28.3 28.2 -16.55 39.9 0 39.9 16.55 39.9 28.3 28.2 40 16.55 40 -0.05 Z"/>
+</g>
+
+<g id="spinner_0_Layer0_0_FILL">
+<path fill="#000000" stroke="none" d="
+M -39 8.5
+L -22.65 0 -39 -8.45
+Q -40.75 0.05 -39 8.5
+M 22.7 0
+L 39.05 8.45
+Q 40.8 -0.05 39.05 -8.5
+L 22.7 0 Z"/>
+</g>
+
+<g id="snap_0_Layer0_0_FILL">
+<path fill="#00FF00" fill-opacity="0" stroke="none" d="
+M 1.75 -1.8
+Q 1.05 -2.5 0 -2.5 -1.05 -2.5 -1.8 -1.8 -2.5 -1.05 -2.5 0 -2.5 1.05 -1.8 1.75 -1.05 2.5 0 2.5 1.05 2.5 1.75 1.75 2.5 1.05 2.5 0 2.5 -1.05 1.75 -1.8 Z"/>
+</g>
+
+<path id="motor_0_Layer0_2_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 28.1 -28.3
+Q 39.8 -16.55 39.8 -0.05 39.8 16.6 28.1 28.3 16.35 40 -0.2 40 -16.75 40 -28.5 28.3 -40.2 16.6 -40.2 -0.05 -40.2 -16.55 -28.5 -28.3 -16.75 -40 -0.2 -40 16.35 -40 28.1 -28.3 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 41.2,41) ">
+<g transform="matrix( 1, 0, 0, 1, -0.2,0) ">
+<use xlink:href="#motor_0_Layer0_0_FILL"/>
+</g>
+
+<g id="spinner" transform="matrix( 1, 0, 0, 1, -0.2,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#spinner_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#motor_0_Layer0_2_1_STROKES"/>
+</g>
+
+<g id="snap" transform="matrix( 1, 0, 0, 1, -37.7,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL" transform="matrix( 1, 0, 0, 1, 37.3,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL" transform="matrix( 1, 0, 0, 1, -27.3,-27.3) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

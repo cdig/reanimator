@@ -1,0 +1,154 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="218px" height="60px" viewBox="0 0 218 60">
+<defs>
+<g id="twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 764.35 1086.25
+L 764.35 1026.25 704.35 1026.25 704.35 1086.25 764.35 1086.25
+M 644.35 1026.25
+L 644.35 1086.25 704.35 1086.25 704.35 1026.25 644.35 1026.25 Z"/>
+</g>
+
+<g id="twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_2_FILL">
+<path fill="#000000" stroke="none" d="
+M 62.7 0.9
+L 62.35 16.45 66.3 15.45 70.15 14.55 62.7 0.9 Z"/>
+</g>
+
+<g id="twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_3_FILL">
+<path fill="#000000" stroke="none" d="
+M 62.7 0.9
+L 62.35 16.45 66.3 15.45 70.15 14.55 62.7 0.9 Z"/>
+</g>
+
+<g id="twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_4_FILL">
+<path fill="#000000" stroke="none" d="
+M 62.7 0.9
+L 62.35 16.45 66.3 15.45 70.15 14.55 62.7 0.9 Z"/>
+</g>
+
+<g id="snap_0_Layer0_0_FILL">
+<path fill="#00FF00" stroke="none" d="
+M 1.75 -1.8
+Q 1.05 -2.5 0 -2.5 -1.05 -2.5 -1.8 -1.8 -2.5 -1.05 -2.5 0 -2.5 1.05 -1.8 1.75 -1.05 2.5 0 2.5 1.05 2.5 1.75 1.75 2.5 1.05 2.5 0 2.5 -1.05 1.75 -1.8 Z"/>
+</g>
+
+<path id="twoPosValve_0_Layer0_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 52.6 -7.7
+L 162.6 -7.7
+M 52.6 67.3
+L 162.6 67.3"/>
+
+<path id="twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 704.35 1086.25
+L 644.35 1086.25 644.35 1026.25 704.35 1026.25 764.35 1026.25 764.35 1086.25 704.35 1086.25 704.35 1026.25"/>
+
+<path id="twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_1_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 749.3 1086.25
+L 749.3 1071.25 741.8 1071.25
+M 749.3 1071.25
+L 756.8 1071.25"/>
+
+<path id="twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_2_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 66.3 15.45
+L 77.4 60.2"/>
+
+<path id="twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_3_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -37.599999999999994 -14.350000000000001
+L -48.7 30.400000000000002"/>
+
+<path id="twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_4_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 66.3 15.45
+L 77.4 60.2"/>
+
+<path id="twoPosValve_0_Layer0_1_MEMBER_1_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 1140.6 936.55
+L 1143.55 921.6 1149.8 951.6 1156.05 921.6 1162.3 951.6 1168.5 921.6 1174.7 951.6 1178.1 936.3"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 79,29.8) ">
+<g transform="matrix( 1, 0, 0, 1, -126.5,-29.8) ">
+<use xlink:href="#twoPosValve_0_Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -723.25,-1056) ">
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_0_FILL"/>
+
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, -1, -723.25,1056.5) ">
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -126.4,-29.8) ">
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_2_FILL"/>
+
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_2_1_STROKES"/>
+</g>
+
+<g transform="matrix( -1, 0, 0, 1, 28.7,-29.8) ">
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_3_FILL"/>
+
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_3_1_STROKES" transform="matrix( -1, 0, 0, 1, 28.7,29.8) "/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -66.4,-29.8) ">
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_4_FILL"/>
+
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_0_MEMBER_4_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -1099.15,-950.35) ">
+<use xlink:href="#twoPosValve_0_Layer0_1_MEMBER_1_1_STROKES"/>
+</g>
+
+<g id="snap" transform="matrix( 1, 0, 0, 1, 26.05,-29.65) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL" transform="matrix( 1, 0, 0, 1, -3.9,-29.65) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL" transform="matrix( 1, 0, 0, 1, -33.95,-29.65) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL" transform="matrix( 1, 0, 0, 1, -63.9,-29.65) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, -49,30.35) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, 11,30.35) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, 41.2,16.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="snap_FL_FL_FL_FL_FL_FL_FL" transform="matrix( 1, 0, 0, 1, -78.8,0.35) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

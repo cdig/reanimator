@@ -89,12 +89,30 @@
    const builtinGlyphFolderName = "built-in glyphs"
    const lineTypeFolderName = "lines"
    const symbolsForBrowserTesting = [
+      "2port2posValve.svg",
+      "2posValve.svg",
+      "4port2posValve.svg",
+      "accumulator.svg",
+      "brakePistion.svg",
+      "checkValve.svg",
+      "cylinder.svg",
+      "double solenoid valve.svg",
+      "gauge.svg",
       "limit switch.svg",
+      "manual valve.svg",
+      "motor.svg",
+      "orifice.svg",
       "prox sensor.svg",
       "pump.svg",
-      "valve.svg",
+      "quick coupler connected.svg",
+      "quick coupler.svg",
       "relief.svg",
-      "accumulator.svg",
+      "shuttle.svg",
+      "solenoid reducing valve.svg",
+      "steeringSolenoidValve.svg",
+      "switch.svg",
+      "twoPort2posValve.svg",
+      "valve.svg",
    ]
    const vertexGlyphsForBrowserTesting = ["node.svg", "port.svg", "plug.svg"]
    const crossingGlyphsForBrowserTesting = ["hopover.svg"]

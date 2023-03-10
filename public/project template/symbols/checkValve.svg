@@ -1,0 +1,58 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="46px" height="36px" viewBox="0 0 46 36">
+<defs>
+<g id="snap_0_Layer0_0_FILL">
+<path fill="#00FF00" fill-opacity="0" stroke="none" d="
+M 1.75 -1.8
+Q 1.05 -2.5 0 -2.5 -1.05 -2.5 -1.8 -1.8 -2.5 -1.05 -2.5 0 -2.5 1.05 -1.8 1.75 -1.05 2.5 0 2.5 1.05 2.5 1.75 1.75 2.5 1.05 2.5 0 2.5 -1.05 1.75 -1.8 Z"/>
+</g>
+
+<g id="checkValveBall_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 10.6 -10.6
+Q 6.2 -15.15 0.1 -15 -6.1 -15.1 -10.5 -10.6 -15 -6.2 -15 0 -15 6 -10.5 10.5 -6.15 14.85 0.1 15 6.25 14.9 10.6 10.5 15 6.25 15 0 15 -6.05 10.6 -10.6 Z"/>
+</g>
+
+<path id="checkValve_0_Layer1_0_MEMBER_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 0 15.85
+L 22.5 -4.15"/>
+
+<path id="checkValve_0_Layer1_0_MEMBER_1_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M -22.5 -4.15
+L 0 15.85"/>
+
+<path id="checkValveBall_0_Layer0_0_1_STROKES" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 10.6 -10.6
+Q 15 -6.05 15 0 15 6.25 10.6 10.5 6.25 14.9 0.1 15 -6.15 14.85 -10.5 10.5 -15 6 -15 0 -15 -6.2 -10.5 -10.6 -6.1 -15.1 0.1 -15 6.2 -15.15 10.6 -10.6 Z"/>
+</defs>
+
+<g id="snap" transform="matrix( 1, 0, 0, 1, 23,35.45) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 23,19.65) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#checkValve_0_Layer1_0_MEMBER_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#checkValve_0_Layer1_0_MEMBER_1_1_STROKES"/>
+</g>
+
+<g id="ball" transform="matrix( 1, 0, 0, 1, 0,-4.15) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#checkValveBall_0_Layer0_0_FILL"/>
+
+<use xlink:href="#checkValveBall_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+</g>
+
+<g id="snap_FL" transform="matrix( 1, 0, 0, 1, 23,11.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#snap_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,39 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="108.2" height="45" viewBox="0 0 108.2 45">
+  <g>
+    <path id="quickCoupler_0_Layer0_0_1_STROKES" data-name="quickCoupler 0 Layer0 0 1 STROKES" d="M54.1,40.8V22.6H34.9M54.1,4.3V22.6H73.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="rightCheck">
+      <path id="checkValve_0_Layer1_0_MEMBER_0_1_STROKES" data-name="checkValve 0 Layer1 0 MEMBER 0 1 STROKES" d="M73.2,22.5,93.2,45" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="checkValve_0_Layer1_0_MEMBER_1_1_STROKES" data-name="checkValve 0 Layer1 0 MEMBER 1 1 STROKES" d="M93.2,0l-20,22.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="ball">
+        <g>
+          <g id="checkValveBall_0_Layer0_0_FILL" data-name="checkValveBall 0 Layer0 0 FILL">
+            <path d="M103.8,33.1a13.8,13.8,0,0,0,4.4-10.5A14.2,14.2,0,0,0,103.8,12a14.6,14.6,0,0,0-20.6-.5c-.2.2-.4.3-.5.5a14.7,14.7,0,0,0-4.5,10.6,14.3,14.3,0,0,0,4.5,10.5,13.8,13.8,0,0,0,10.5,4.4A15,15,0,0,0,103.8,33.1Z" fill="#fff"/>
+          </g>
+          <path id="checkValveBall_0_Layer0_0_1_STROKES" data-name="checkValveBall 0 Layer0 0 1 STROKES" d="M103.8,33.1a15,15,0,0,1-10.6,4.4,13.8,13.8,0,0,1-10.5-4.4,14.3,14.3,0,0,1-4.5-10.5A14.7,14.7,0,0,1,82.7,12a14.6,14.6,0,0,1,20.6-.5c.2.2.4.3.5.5a14.2,14.2,0,0,1,4.4,10.6A13.8,13.8,0,0,1,103.8,33.1Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g>
+    <g id="leftCheck">
+      <path id="checkValve_0_Layer1_0_MEMBER_0_1_STROKES-2" data-name="checkValve 0 Layer1 0 MEMBER 0 1 STROKES-2" d="M35,22.5,15,45" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="checkValve_0_Layer1_0_MEMBER_1_1_STROKES-2" data-name="checkValve 0 Layer1 0 MEMBER 1 1 STROKES-2" d="M15,0,35,22.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+      <g id="ball_FL" data-name="ball FL">
+        <g>
+          <g id="checkValveBall_0_Layer0_0_FILL-2" data-name="checkValveBall 0 Layer0 0 FILL-2">
+            <path d="M4.4,33.1A13.8,13.8,0,0,1,0,22.6,14,14,0,0,1,4.4,12,14.1,14.1,0,0,1,15,7.5,14.3,14.3,0,0,1,25.5,12,14.6,14.6,0,0,1,26,32.6l-.5.5A13.8,13.8,0,0,1,15,37.5,15,15,0,0,1,4.4,33.1Z" fill="#fff"/>
+          </g>
+          <path id="checkValveBall_0_Layer0_0_1_STROKES-2" data-name="checkValveBall 0 Layer0 0 1 STROKES-2" d="M4.4,33.1A15,15,0,0,0,15,37.5a13.8,13.8,0,0,0,10.5-4.4A14.6,14.6,0,0,0,26,12.5l-.5-.5A14.3,14.3,0,0,0,15,7.5,14.1,14.1,0,0,0,4.4,12,14,14,0,0,0,0,22.6,13.8,13.8,0,0,0,4.4,33.1Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="outSnap">
+    <g id="snap_0_Layer0_0_FILL" data-name="snap 0 Layer0 0 FILL">
+      <path d="M2,20.3a3.1,3.1,0,0,0-2.2-.9,3.1,3.1,0,0,0-3.1,3.1A3.1,3.1,0,0,0-.2,25.6,3.1,3.1,0,0,0,2,24.7a3.1,3.1,0,0,0,0-4.4Z" fill="lime" fill-opacity="0"/>
+    </g>
+  </g>
+  <g id="inSnap">
+    <g id="snap_0_Layer0_0_FILL-2" data-name="snap 0 Layer0 0 FILL-2">
+      <path d="M110.5,20.3a3.1,3.1,0,1,0,0,4.4,3.1,3.1,0,0,0,0-4.4Z" fill="lime" fill-opacity="0"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="66.2" height="105.1" viewBox="0 0 66.2 105.1">
+  <g>
+    <g>
+      <g id="solenoidOn">
+        <g id="solenoidOn_0_Layer0_0_FILL" data-name="solenoidOn 0 Layer0 0 FILL">
+          <path d="M18.1,45h30V0h-30Z" fill="red"/>
+        </g>
+      </g>
+      <g id="solenoidOff">
+        <g id="solenoidOff_0_Layer0_0_FILL" data-name="solenoidOff 0 Layer0 0 FILL">
+          <path d="M18.1,45h30V0h-30Z" fill="#fefefe"/>
+        </g>
+      </g>
+      <path id="solenoid_0_Layer0_2_1_STROKES" data-name="solenoid 0 Layer0 2 1 STROKES" d="M48.1,45V0h-30V45Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="solenoid_0_Layer0_2_MEMBER_0_1_STROKES" data-name="solenoid 0 Layer0 2 MEMBER 0 1 STROKES" d="M18.3,30.2,48,14.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <g>
+        <g id="pressureReduceValve_0_Layer0_0_FILL" data-name="pressureReduceValve 0 Layer0 0 FILL">
+          <path d="M63.1,45.1H3.1v60h60Z" fill="#fff"/>
+        </g>
+        <path id="pressureReduceValve_0_Layer0_0_1_STROKES" data-name="pressureReduceValve 0 Layer0 0 1 STROKES" d="M3.1,45.1h60v60H3.1Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="arrow">
+        <g>
+          <g id="arrow_0_Layer0_0_FILL" data-name="arrow 0 Layer0 0 FILL">
+            <path d="M62.3,75l-15-4v8Z"/>
+          </g>
+          <path id="arrow_0_Layer0_0_1_STROKES" data-name="arrow 0 Layer0 0 1 STROKES" d="M47.3,75H3.8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g>
+    <g id="outSnap">
+      <g id="snap_0_Layer0_0_FILL" data-name="snap 0 Layer0 0 FILL">
+        <path d="M65.3,72.9a3.1,3.1,0,1,0,.9,2.2A2.9,2.9,0,0,0,65.3,72.9Z" fill="lime" fill-opacity="0"/>
+      </g>
+    </g>
+    <g id="inSnap">
+      <g id="snap_0_Layer0_0_FILL-2" data-name="snap 0 Layer0 0 FILL">
+        <path d="M5.3,72.9A2.9,2.9,0,0,0,3.1,72a2.9,2.9,0,0,0-2.2.9,3.1,3.1,0,0,0,0,4.4,2.9,2.9,0,0,0,2.2.9,2.9,2.9,0,0,0,2.2-.9,3.1,3.1,0,0,0,0-4.4Z" fill="lime" fill-opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>
