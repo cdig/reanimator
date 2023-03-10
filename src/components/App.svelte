@@ -1898,7 +1898,7 @@
       allTags = new Set()
       allPropertyNames = new Set()
       allPropertyValues = new Set()
-      for (let thing of allThingsWithProperties()) {
+      for (let thing of [ ...allVertices(), ...Segment.s, ...SymbolInstance.s, ...TextBox.es]) {
          for (let tag of thing.tags) allTags.add(tag)
          for (let prop of thing.properties) {
             let { name, value } = parseProperty(prop)
