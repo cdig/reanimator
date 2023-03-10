@@ -1,13 +1,3 @@
-# What is this?
-
-This app is an editor for electrical & hydraulic circuit diagrams.
-
-It has been designed for the needs of a particular client, so I make no promises about its usefulness to others!
-
-# User guide
-
-This user guide may not be up-to-date. However, it is/was accurate at the time of writing.
-
 ## Opening a project
 
 The app facilitates the drawing of circuit diagrams that contain arbitrary symbols and line segments. Therefore, these resources must be provided to the app before drawing can begin. The app is currently centered around a "project folder", which must contain a subfolder for each kind of resource:
@@ -88,6 +78,8 @@ The slide tool allows you to move an object (or a selection of objects) while en
 By default, the moved object(s) will push all objects in their path. However, if the Shift key is held, only objects that are connected via a line segment will be pushed.
 
 A slide operation occurs along a particular axis. For the most part, an object can only be slid along an axes shared by one or more line segment(s) it is attached to. As the object is slid, those line segments will then stretch and/or shrink.
+
+If holding shift, the slide will not push things that aren't connected to the object being slid. Note that you can press and release shift while sliding without releasing the mouse to toggle which mode you're in. This is useful.
 
 ### The freeze tool
 
