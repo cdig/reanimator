@@ -1,0 +1,653 @@
+/* App ************************************************************************/
+
+.touchLight {
+  color: rgba(60, 240, 255, .5);
+}
+
+.amassLight {
+  color: rgba(255, 255, 255, .5);
+}
+
+.rigidLight {
+  color: #0004;
+}
+
+.freezeLight {
+  color: rgb(0, 150, 255);
+}
+
+.hiddenSymbol {
+  fill: rgba(0, 0, 0, 0.15);
+}
+
+.hiddenSymbol.amassLight {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Source Sans";
+  src: url("../fonts/SourceSans3VF.ttf.woff2");
+  font-weight: 1 1000;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/NunitoVF.ttf");
+  font-weight: 1 1000;
+  font-synthesis: none;
+}
+
+html, body, table, tr, td {
+  font-family: "Source Sans";
+  font-feature-settings: "cv01"; /* Capital I with serif. */
+  font-weight: 390;
+  line-height: 1;
+}
+
+input, button, select, textarea, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.svgTemplate {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+div {
+  font-size: 15px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+button {
+  padding: 2px;
+  padding-bottom: 1px;
+}
+
+.spacer {
+  height: 8px;
+}
+
+.sidebar {
+  background-color: rgb(201, 203, 207);
+  box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.12), 0 0 4px 0 rgb(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+}
+
+.left.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+
+.right.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 180px;
+  height: 100%;
+}
+
+.topThings,
+.linePaneTitle,
+.symbolPaneTitle,
+.configPane {
+  box-shadow: 0 1px 3px 0 rgb(0, 0, 0, 0.25);
+}
+
+.topThings,
+.linePaneTitle,
+.symbolPaneTitle {
+  z-index: 1;
+}
+
+.paneTitle {
+  flex-shrink: 0;
+  padding: 4px;
+  font-size: 16px;
+  font-weight: 680;
+  background-color: rgb(231, 234, 237);
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.projectPane {
+  flex-shrink: 0;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgb(231, 234, 237);
+  border-bottom: 1px solid grey;
+}
+
+.historyPane {
+  height: 150px;
+  padding: 1px 0;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse; /* keeps scroll bar at bottom of content*/
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.historyPaneItem {
+  padding: 3px 5px;
+}
+
+.historyPaneItem.selected {
+  background-color: white;
+}
+
+.inspectorPane {
+  flex-grow: 1;
+  max-height: 360px;
+  padding: 5px 4px;
+  user-select: none;
+  -webkit-user-select: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.inspectorItemSummary {
+  font-weight: 550;
+}
+
+.inspectorBody {
+  padding: 9px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.spacer {
+  height: 3px;
+}
+
+.inspectorSubtitle {
+  font-weight: 640;
+}
+
+.rotateButtons {
+  display: grid;
+  grid-template-rows: 26px;
+  grid-template-columns: 26px 26px;
+  gap: 3px;
+}
+
+.rotateButton {
+  font-size: 24px;
+  font-weight: 530;
+  padding: 0;
+}
+
+.symbolMoveButton.flip {
+  width: 37px;
+}
+
+.symbolMoveButton.flip.disabled {
+  color: grey;
+}
+
+.flipMessage {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.symbolMoveButton.send,
+.symbolMoveButton.bring {
+  width: 96px;
+}
+
+.glyphSelectionItem.uniqueHighlight,
+.lineGridItem.toUse {
+  background-color: white;
+}
+
+.glyphSelectionItem.multiHighlight,
+.lineGridItem.selected {
+  background-color: #999;
+}
+
+.radioButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 3px;
+}
+
+.tag,
+.property {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 15px;
+}
+
+.removeProperty {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #444;
+}
+
+.selectIcon {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.symbolPane {
+  min-height: 100px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.paneMessage {
+  padding: 5px;
+}
+
+.symbolGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgb(90, 90, 90);
+}
+
+.symbolGridItem {
+  /* height: 80px; */
+  padding: 5px;
+  background-color: rgb(201, 203, 207);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  font-weight: 400;
+}
+
+.symbolImage {
+  min-height: 20px;
+  max-height: 70px;
+  max-width: 100%;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.grabbedSymbolImage {
+  z-index: 10;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.linePane {
+  min-height: 150px;
+  flex-grow: 1;
+  padding: 1px 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.lineGrid {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.lineGridItem {
+  padding: 4px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  font-weight: 400;
+}
+
+.lineSvg {
+  height: 16px;
+  stroke-linecap: round;
+}
+
+.configPane {
+  z-index: 2;
+  flex-shrink: 0;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgb(231, 234, 237);
+}
+
+.configItem {
+  flex: 1;
+  padding: 5px;
+  padding-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font-weight: 410;
+}
+
+.configImage {
+  flex: 1;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.configTooltip {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.configItem:hover .configTooltip {
+  visibility: visible;
+  width: 122px;
+  padding: 2px;
+  background-color: white;
+  box-shadow: 0 0 8px 0 rgb(0, 0, 0, 0.3);
+}
+
+.toolbox {
+  position: absolute;
+  bottom: 4px;
+  left: calc(250px + 4px);
+  z-index: 1;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.toolButtons {
+  display: grid;
+  grid-template-rows: 53px 53px;
+  grid-template-columns: repeat(3, 53px);
+  gap: 3px;
+  padding: 5px;
+  filter: drop-shadow(0 2px 2px rgb(0, 0, 0, 0.3))
+      drop-shadow(0 2px 4px rgb(0, 0, 0, 0.2));
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(193, 195, 199);
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.cursor-amass {
+  cursor: default;
+}
+
+.cursor-warp {
+  cursor: -webkit-image-set(
+            url("../cursors/warp 1x.png") 1x,
+            url("../cursors/warp 2x.png") 2x
+        )
+        12 11,
+      default;
+}
+
+.cursor-slide {
+  /* cursor: move; */
+  cursor: -webkit-image-set(
+            url("../cursors/slide 1x.png") 1x,
+            url("../cursors/slide 2x.png") 2x
+        )
+        12 11,
+      default;
+}
+
+.cursor-draw {
+  cursor: -webkit-image-set(
+            url("../cursors/draw 1x.png") 1x,
+            url("../cursors/draw 2x.png") 2x
+        )
+        10 0,
+      default;
+}
+
+.cursor-erase {
+  cursor: -webkit-image-set(
+            url("../cursors/erase 1x.png") 1x,
+            url("../cursors/erase 2x.png") 2x
+        )
+        10 1,
+      default;
+}
+
+.cursor-freeze {
+  cursor: -webkit-image-set(
+            url("../cursors/freeze 1x.png") 1x,
+            url("../cursors/freeze 2x.png") 2x
+        )
+        10 0,
+      default;
+}
+
+/* FakeRadioButton ************************************************************/
+
+.radioOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radioOutline {
+  stroke-width: 0.75px;
+  stroke: black;
+  fill: white;
+}
+
+.radioOutlineCheck {
+  stroke-width: 0.75px;
+  stroke: #0075ff;
+  fill: white;
+}
+
+.radioFill {
+  stroke: none;
+  fill: #0075ff;
+}
+
+.label {
+  padding-left: 4px;
+}
+
+/* GlyphSelectionBox **********************************************************/
+
+.glyphSelectionBox {
+  max-height: 120px;
+  overflow-y: scroll;
+  /* box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.4); */
+  border: 1px solid grey;
+  /* padding: 3px 0; */
+}
+
+.glyphSelectionItem {
+  padding: 3px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+
+.glyphImage {
+  width: 12px;
+  min-height: 12px;
+}
+
+.glyphLabel {
+  flex-grow: 1;
+}
+
+/* RectSelectBox **************************************************************/
+
+.rectSelectBox line {
+  stroke: black;
+  transform: translate(0.5px, 0.5px); /* to render without aliasing */
+}
+
+/* TextBox ********************************************************************/
+
+.box {
+  stroke: none;
+  fill: none;
+}
+
+.shaded.box {
+  fill: #0003;
+}
+
+.highlight {
+  stroke: none;
+  fill: currentColor;
+}
+
+text {
+  font-family: "Source Sans";
+}
+
+/* TextField ******************************************************************/
+
+.textField {
+  position: relative; /*Sets an origin for the position:absolute elements.*/
+  height: 1em;
+  padding: 2px 3px;
+  border: 1px solid #222;
+  margin: 1px;
+}
+
+.textField:focus-within {
+  color: transparent; /* inherited by the child text */
+  border-width: 2px;
+  margin: 0px;
+}
+
+.textField.inputUnknown:focus-within {
+  background-color: #f3d402;
+}
+
+.textField.inputMatchesSuggestion:focus-within {
+  background-color: #7ef382;
+}
+
+.textField:hover:not(:focus-within) {
+  background-color: #fff3;
+}
+
+.submittedText {
+  position: absolute;
+  color: inherit;
+}
+
+input {
+  position: absolute;
+  width: 100%;
+  height: 1em;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+}
+
+input:focus {
+  outline: none;
+  color: black;
+}
+
+.suggestionBox {
+  position: fixed;
+  z-index: 1000;
+  border: 1px solid white;
+  padding: 1px 1px;
+  background: #ddd;
+  color: black;
+  max-height: 160px;
+  overflow: scroll;
+  box-shadow: 0 0 8px 0 rgb(0, 0, 0, 0.3);
+}
+
+.suggestion {
+  padding: 2px 2px;
+}
+
+.selected.suggestion {
+  background-color: white;
+}
+
+/* ToolButton *****************************************************************/
+
+.button {
+  background-color: rgb(231, 234, 237);
+  border-radius: 3px;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  padding: 3px;
+  padding-top: 2px;
+}
+
+.isHeld,
+.button:active {
+  box-shadow: 1px 1px 2px 0px #00000077 inset;
+  padding-left: 4px;
+  padding-top: 3px;
+}
+
+/* .isBound {
+  background-color: rgb(214, 212, 169);
+} */
+
+.isSelected {
+  background-color: rgb(255, 250, 120);
+}
+
+.label::first-letter {
+  font-family: "Courier", Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.label {
+  font-family: "Nunito";
+  font-size: 14.2px;
+  font-weight: 470;
+  letter-spacing: 0.3px;
+}

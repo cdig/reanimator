@@ -29,20 +29,3 @@
    />
    <text style="font-size: {fontSize}px;">{text}</text>
 </g>
-
-<style>
-   .box {
-      stroke: none;
-      fill: none;
-   }
-   .shaded.box {
-      fill: #0003;
-   }
-   .highlight {
-      stroke: none;
-      fill: currentColor;
-   }
-   text {
-      font-family: "Source Sans";
-   }
-</style>

@@ -14,28 +14,3 @@
    </svg>
    <span class="label">{label}</span>
 </div>
-
-<style>
-   .radioOption {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-   }
-   .radioOutline {
-      stroke-width: 0.75px;
-      stroke: black;
-      fill: white;
-   }
-   .radioOutlineCheck {
-      stroke-width: 0.75px;
-      stroke: #0075ff;
-      fill: white;
-   }
-   .radioFill {
-      stroke: none;
-      fill: #0075ff;
-   }
-   .label {
-      padding-left: 4px;
-   }
-</style>

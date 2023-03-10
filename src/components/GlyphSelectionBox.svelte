@@ -39,27 +39,3 @@
       </div>
    {/each}
 </div>
-
-<style>
-   .glyphSelectionBox {
-      max-height: 120px;
-      overflow-y: scroll;
-      /* box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.4); */
-      border: 1px solid grey;
-      /* padding: 3px 0; */
-   }
-   .glyphSelectionItem {
-      padding: 3px 5px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 7px;
-   }
-   .glyphImage {
-      width: 12px;
-      min-height: 12px;
-   }
-   .glyphLabel {
-      flex-grow: 1;
-   }
-</style>
