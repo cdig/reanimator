@@ -14,4 +14,8 @@ export default defineConfig({
    build: {
       outDir: "dist-web",
    },
+   server: {
+      port: 3000,
+      strictPort: true
+   },
 })
