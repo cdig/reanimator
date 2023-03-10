@@ -833,7 +833,7 @@ export class TextBox extends Rectangle implements Deletable {
       new Range1D([0, 0]),
       new Range1D([0, 0])
    )
-   private static canvas = document.createElement("canvas") // for size testing
+   private static canvas:HTMLCanvasElement // for size testing
 
    constructor(position: Point, rotation = Rotation.zero, addToCircuit = true) {
       super(TextBox.emptyRange, position, rotation, new Vector(1, 1))
@@ -853,6 +853,7 @@ export class TextBox extends Rectangle implements Deletable {
       this.updateBoundingBox()
    }
    private updateBoundingBox() {
+      TextBox.canvas ||= document.createElement("canvas")
       // Use a Canvas to measure the size of the text.
       const context = TextBox.canvas.getContext(
          "2d"
