@@ -485,7 +485,7 @@ button {
   fill: #0075ff;
 }
 
-.label {
+.radioOption .label {
   padding-left: 4px;
 }
 
@@ -639,13 +639,13 @@ input:focus {
   background-color: rgb(255, 250, 120);
 }
 
-.label::first-letter {
+.button .label::first-letter {
   font-family: "Courier", Courier, monospace;
   font-size: 18px;
   font-weight: bold;
 }
 
-.label {
+.button .label {
   font-family: "Nunito";
   font-size: 14.2px;
   font-weight: 470;
