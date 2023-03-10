@@ -165,8 +165,8 @@
    }
    type Grabbable = Junction | Segment | SymbolInstance | TextBox // Grabbed for moving.
    type Movable = Junction | SymbolInstance | TextBox // Things that actually move.
-   type Pushable = Junction | Segment | SymbolInstance // Recipients of pushes.
-   type Attachable = Junction | Port | Segment | SpecialAttachPoint // Things a segment can attach to.
+   type Pushable = Junction | Segment | SymbolInstance // Recipients of pushes. // TODO: Doesn't include TextBox (yet)
+   type Attachable = Junction | Port | Segment | SpecialAttachPoint // Things a segment can connect(!) to. NB: Attachable has nothing to do with attachment — it's an earlier concept, predating "attachment". An Attachable is just something that a segment can attach to, eg: something you can draw from.
    type HasProperties = Vertex | Segment | SymbolInstance | TextBox // Has tags/properties
    function isMovable(thing: any): thing is Movable {
       return (
@@ -2443,7 +2443,7 @@
          let d = mouseOnCanvas.displacementFrom(centroid).add(pasteOffset)
          for (let thing of thingsToMove) thing.moveBy(d)
          pasteOffset = pasteOffset.add(new Vector(20, 20))
-         // Amass the copied items.
+         // Amass the new items.
          amassed.items = new Set(items)
 
          commitState(didPaste ? "paste" : "duplicate")
@@ -3609,7 +3609,7 @@
          !(grabbed instanceof Junction) &&
          allowDuplication
       ) {
-         let dupe
+         let dupe // TODO: Missing type hint
          if (amassed.items.has(grabbed)) {
             dupe = duplicate(amassedCopyables)
             amassed.items = dupe.items
@@ -3772,7 +3772,7 @@
          updateRotate()
       }
    }
-   function updatePan() {
+   function updatePan() { // NOTE: This isn't the same meaning of "pan" as panning the canvas. This is just a mode of warp where you are moving an object (as opposed to rotating)
       if (!warp) return
       // Start by moving everything as if it was following the mouse.
       {
